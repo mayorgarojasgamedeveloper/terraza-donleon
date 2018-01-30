@@ -24,7 +24,7 @@ y es muy importante crear una rama para cada feature.
 git checkout -b 'Nueva Rama'
 ```
 
-Una vez se comprueba entre todos que la rama es estable la podemos convinar.
+Una vez se comprueba entre todos que la rama es estable la podemos convinar a la rama Dev. Ya en Dev con todas las pruebas necesarias se pasa a Master.
 
 ## Running the tests
 
