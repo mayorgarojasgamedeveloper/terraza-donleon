@@ -15,7 +15,7 @@ Instalar softwares para editar. Los siguientes softwares se recomiendam: Atom, P
 Para instalar el repo correr en Git Bash.
 
 ```
-git clone https://github.com/mayorgarojasgamedeveloper/terraza_paraiso
+git clone https://github.com/mayorgarojasgamedeveloper/terraza-donleon
 ```
 
 y es muy importante crear una rama para cada feature.
