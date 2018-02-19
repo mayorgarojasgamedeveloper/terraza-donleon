@@ -4,9 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/form.css">
+  <link rel="stylesheet" href="../css/master.css">
   <title>Document</title>
 </head>
 <body>
+  <form class="form-container" action="#" method="post">
+    <!--
+    Information:
+      Nombre(s)
+      Apellido paterno
+      Apellido materno
+      correo
+      Telefono
+    -->
+    <h2>Agregar cliente</h2>
+    <label for="name">Nombre:</label>
+    <input type="text" name="name" id="name" placeholder="Fernando">
+    <label for="last-name-p">Apellido Paterno:</label>
+    <input type="text" name="last-name-p" id="last-name-p" placeholder="Mayorga">
+    <label for="last-name-m">Apellido Materno:</label>
+    <input type="text" name="last-name-m" id="last-name-m" placeholder="Rojas">
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="correo@gmail.com">
+    <label for="cel">Telefono celular:</label>
+    <input type="number" name="cel" id="cel" placeholder="3350384956">
+    <label for="tel">Telefono fijo:</label>
+    <input type="number" name="tel" id="tel" placeholder="38495738">
 
+    <div class="row">
+      <button class="btn-accept" type="submit" name="button">Agregar</button>
+      <button class="btn-cancel" type="submit" name="button">Cancelar</button>
+    </div>
+
+  </form>
 </body>
 </html>
