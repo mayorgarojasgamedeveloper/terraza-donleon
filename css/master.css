@@ -1,3 +1,129 @@
 * {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+/*---- Nav-Menu ------*/
+nav {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #232426;
+}
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 0;
+  color: white;
+}
+nav ul .active,
+nav ul li:hover {
+  background-color: grey;
+}
+/*-----BANNER-----*/
+.banner {
+  width: 100%;
+  height: auto;
+  background-image: url("../img/banner-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner h1 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  letter-spacing: 5px;
+  padding: 100px 0 20px;
+}
+.banner h2 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1em;
+  color: white;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+.banner p {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-size: 0.7em;
+  color: white;
+  letter-spacing: 2px;
+  padding: 20px 100px 50px;
+}
+/*------INFO INICIO------*/
+.block-info-grey {
+  width: 100%;
+  height: 400px;
+  background-color: lightgrey;
+}
+.block-info-white {
+  width: 100%;
+  height: 400px;
+  background-color: #f5f5f5;
+}
+.container {
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+}
+.container h2 {
+  display: block;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1.5em;
+  color: black;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+.container p {
+  display: block;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-size: 0.8em;
+  text-align: left;
+  color: black;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.container img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+/*---FOOTER------*/
+footer ul {
+  list-style-type: none;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+footer ul li a {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
 }
