@@ -16,7 +16,7 @@ nav {
 nav ul {
   list-style: none;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto;
 }
 nav ul li {
   display: inline-block;
