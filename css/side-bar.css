@@ -5,10 +5,12 @@ body {
   position: absolute;
   width: 250px;
   height: 100%;
+  top: 0;
   background-color: #333;
   color: #fff;
   outline: 1px solid #2a2a2a;
-  transition: margin-left 0.3s;
+  margin-left: -251px;
+  transition: margin 0.3s;
 }
 .side-bar h2 {
   text-align: center;
@@ -16,10 +18,19 @@ body {
   padding: 10px;
   background-color: #2a2a2a;
 }
-.side-bar img {
+.side-bar button {
   position: absolute;
   cursor: pointer;
-  left: 270px;
+  background: #2a2a2a url("../img/menu-icon.png") no-repeat;
+  background-size: 30px;
+  background-position: center;
+  border: none;
+  outline: 1px solid #2a2a2a;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  left: 250px;
   top: 0;
 }
 .side-bar a {
@@ -41,6 +52,6 @@ body {
   background-color: #444;
   border-left: 5px solid #eee;
 }
-.side-bar-hidde {
-  margin-left: -250px;
+.sb-enable {
+  margin-left: 0;
 }
