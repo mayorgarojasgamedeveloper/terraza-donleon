@@ -8,12 +8,19 @@ body {
   background-color: #333;
   color: #fff;
   outline: 1px solid #2a2a2a;
+  transition: margin-left 0.3s;
 }
 .side-bar h2 {
   text-align: center;
   margin: 0;
   padding: 10px;
   background-color: #2a2a2a;
+}
+.side-bar img {
+  position: absolute;
+  cursor: pointer;
+  left: 270px;
+  top: 0;
 }
 .side-bar a {
   display: block;
@@ -33,4 +40,7 @@ body {
 .side-bar li:hover {
   background-color: #444;
   border-left: 5px solid #eee;
+}
+.side-bar-hidde {
+  margin-left: -250px;
 }
