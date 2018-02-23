@@ -1,72 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+* { margin: 0; padding: 0; }
 
-ul {
-  list-style: none;
-}
+ul { list-style: none; }
 
-a {
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
-nav {
-  position: fixed;
-  width: 250px;
-  height: 100%;
-  top: 0;
-  margin-left: -251px;
-  background-color: #2a2a2a;
-  outline: 1px solid #333;
-  color: #fff;
-  transition: margin 0.3s;
-}
+nav { position: fixed; width: 250px; height: 100%; top: 0; margin-left: -251px; background-color: #2a2a2a; outline: 1px solid #333; color: #fff; transition: margin 0.3s; }
 
-nav h2 {
-  text-align: center;
-  margin: 0;
-  padding: 10px;
-  background-color: #333;
-}
+nav h2 { text-align: center; margin: 0; padding: 10px; background-color: #333; }
 
-nav button {
-  cursor: pointer;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 250px;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  background: #2a2a2a url("../img/menu-icon.png") no-repeat;
-  background-size: 30px;
-  background-position: center;
-  border: none;
-  outline: 1px solid #333;
-}
+nav button { cursor: pointer; position: absolute; width: 50px; height: 50px; left: 250px; top: 0; margin: 0; padding: 0; background: #2a2a2a url("../img/menu-icon.png") no-repeat; background-size: 30px; background-position: center; border: none; outline: 1px solid #333; }
 
-nav a {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
-}
+nav img { display: none; }
 
-nav li {
-  outline: 1px solid #333;
-  transition: all 0.3s;
-}
+@media (max-width: 760px) { nav img { display: inline; position: absolute; width: 30px; height: 30px; left: 10px; top: 10px; margin: 0; padding: 0; } }
 
-nav li:hover {
-  background-color: #444;
-  border-left: 5px solid #eee;
-}
+nav a { display: block; padding: 10px; color: #fff; text-decoration: none; }
 
-.side-bar-toggle {
-  margin-left: 0px;
-}
+nav li { outline: 1px solid #333; transition: all 0.3s; }
 
-body {
-  font-family: 'Open Sans', sans-serif;
-}
+nav li:hover { background-color: #444; border-left: 5px solid #eee; }
+
+.side-bar-toggle { margin-left: 0px; }
+
+body { font-family: 'Open Sans', sans-serif; }

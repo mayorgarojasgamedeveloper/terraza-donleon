@@ -45,6 +45,23 @@ nav {
     outline: 1px solid $secundary-color;
   }
 
+  img {
+    display: none;
+  }
+
+  @media (max-width: 760px) {
+    img {
+      display: inline;
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 10px;
+      top: 10px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
   a {
     display: block;
     padding: 10px;
