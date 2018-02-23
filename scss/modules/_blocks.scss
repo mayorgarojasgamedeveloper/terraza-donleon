@@ -1,0 +1,37 @@
+.search-form {
+  display: flex;
+  width: 100%;
+  height: 50px;
+
+  input {
+    padding: 10px;
+    width: 80%;
+
+    border: none;
+    border-right: 1px solid gray;
+  }
+
+  button {
+    height: 50px;
+    width: 20%;
+
+    background-color: $lightgray;
+    border: none;
+  }
+}
+
+@media (min-width: $media-desktop) {
+  .search-form {
+    width: 50%;
+    margin: 20px auto;
+    input {
+      border-top-left-radius: $component-border-radius;
+      border-bottom-left-radius: $component-border-radius;
+    }
+
+    button {
+      border-top-right-radius: $component-border-radius;
+      border-bottom-right-radius: $component-border-radius;
+    }
+  }
+}
