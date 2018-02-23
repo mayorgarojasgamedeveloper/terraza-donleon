@@ -1,0 +1,45 @@
+$text-color: #fff;
+$header-color: green;
+
+.header-index {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  background: $header-color url('../img/banner-background.png') no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: 1920px;
+
+  h1 {
+    @import text-wite;
+    font-size: 2em;
+  }
+
+  h2 {
+    @import text-wite;
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+
+  p {
+    @import text-wite;
+    font-size: .7em;
+    font-weight: lighter;
+  }
+
+  @media (min-width: 760px) {
+    p {
+      padding: 0 25%;
+    }
+  }
+}
+
+@mixin text-wite {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: $text-color;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
