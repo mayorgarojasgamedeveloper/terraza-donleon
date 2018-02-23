@@ -1,0 +1,79 @@
+nav {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  top: 0;
+  margin-left: $position-hidde;
+
+  background-color: $nav-primary-color;
+  outline: 1px solid $nav-secundary-color;
+  color: $text-color;
+
+  transition: margin 0.3s;
+
+  h2 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: $nav-secundary-color;
+  }
+
+  button {
+    cursor: pointer;
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 250px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+
+    background: $nav-secundary-color url("../img/menu-icon.png") no-repeat;
+    background-size: 30px;
+    background-position: center;
+    border: none;
+    outline: 1px solid $nav-secundary-color;
+  }
+
+  img {
+    display: inline;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    display: block;
+    padding: 10px;
+
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  li {
+    outline: 1px solid $nav-secundary-color;
+    transition: all 0.3s;
+  }
+
+  li:hover {
+    background-color: $highlight-color;
+    border-left: 5px solid $highlight-side-color;
+  }
+}
+
+.side-bar-toggle {
+  margin-left: $position-unhidde;
+}
+
+@media (min-width: $media-tablet) {
+  nav {
+    img {
+      display: none;
+    }
+  }
+}

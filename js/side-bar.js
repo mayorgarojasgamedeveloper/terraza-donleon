@@ -1,3 +1,3 @@
 function myFunction() {
-    $('.side-bar').toggleClass('sb-enable');
+    $('nav').toggleClass('side-bar-toggle');
 }

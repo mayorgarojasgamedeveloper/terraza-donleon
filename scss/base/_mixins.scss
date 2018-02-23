@@ -1,0 +1,8 @@
+@mixin text-white {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: $text-color;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
