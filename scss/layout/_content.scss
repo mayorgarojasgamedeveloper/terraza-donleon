@@ -96,3 +96,57 @@
     grid-template-columns: auto auto auto auto;
   }
 }
+
+/*Paquetes*/
+.paquete {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+  h2 {
+    padding: 10px;
+  }
+  p {
+    padding: 10px;
+  }
+  h3 {
+    padding: 10px;
+    color: red;
+  }
+}
+
+@media (min-width: $media-tablet) {
+  .paquete {
+    border: none;
+
+    max-width: 700px;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 5px 5px 5px grey;
+    background-color: $lightgray;
+
+    img {
+      width: 25%;
+      height: 25%;
+      margin: auto 0 auto 20px;
+      border-radius: 5px;
+    }
+    .info {
+      flex-basis: 70%;
+    }
+    h2 {
+      padding: 10px;
+    }
+    p {
+      padding: 10px;
+    }
+    h3 {
+      padding: 10px;
+      color: red;
+    }
+  }
+}
