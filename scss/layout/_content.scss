@@ -150,3 +150,48 @@
     }
   }
 }
+
+/*Log In*/
+.form-normal {
+  width: 100%;
+
+  input {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 40px;
+    margin: 20px 0;
+    padding: 10px 0;
+  }
+  button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: $green;
+    height: 50px;
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: $media-tablet) {
+  .form-normal {
+    width: 500px;
+
+    input {
+      display: block;
+      width: 100%;
+      border: none;
+      height: 40px;
+      margin: 20px 0;
+      padding: 10px 0;
+    }
+    button {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: $green;
+      height: 50px;
+      margin: 20px 0;
+    }
+  }
+}
