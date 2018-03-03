@@ -1,5 +1,10 @@
 /*-----------Index----------------*/
-
+.fixedFooter {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 .index-article {
   width: 100%;
   height: auto;
@@ -63,7 +68,7 @@
 /* Galeria */
 .gallery-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   padding: 10px 5px;
   grid-gap: 15px;
 
@@ -85,7 +90,7 @@
   .gallery-container {
     width: 80%;
     margin: 0 auto;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
   }
 }
 
@@ -93,7 +98,7 @@
   .gallery-container {
     width: 60%;
     margin: 0 auto;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
   }
 }
 
@@ -157,11 +162,11 @@
 
   input {
     display: block;
-    width: 100%;
+    width: 95%;
     border: none;
     height: 40px;
     margin: 20px 0;
-    padding: 10px 0;
+    padding: 10px;
   }
   button {
     display: block;
@@ -176,22 +181,15 @@
 @media (min-width: $media-tablet) {
   .form-normal {
     width: 500px;
+    margin: 0 auto;
 
     input {
-      display: block;
-      width: 100%;
-      border: none;
-      height: 40px;
-      margin: 20px 0;
-      padding: 10px 0;
+      box-shadow: 5px 5px 5px grey;
+      border-radius: 5px;
     }
     button {
-      display: block;
-      width: 100%;
-      border: none;
-      background-color: $green;
-      height: 50px;
-      margin: 20px 0;
+      box-shadow: 5px 5px 5px grey;
+      border-radius: 5px;
     }
   }
 }
