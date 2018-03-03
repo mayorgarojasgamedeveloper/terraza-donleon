@@ -162,7 +162,7 @@
 
   input {
     display: block;
-    width: 95%;
+    width: 94.3%;
     border: none;
     height: 40px;
     margin: 20px 0;
@@ -176,6 +176,13 @@
     height: 50px;
     margin: 20px 0;
   }
+  textarea {
+    display: block;
+    width: 94.3%;
+    border: none;
+    margin: 20px 0;
+    padding: 10px;
+  }
 }
 
 @media (min-width: $media-tablet) {
@@ -188,6 +195,10 @@
       border-radius: 5px;
     }
     button {
+      box-shadow: 5px 5px 5px grey;
+      border-radius: 5px;
+    }
+    textarea {
       box-shadow: 5px 5px 5px grey;
       border-radius: 5px;
     }
