@@ -7,24 +7,40 @@
   <title>Document</title>
 </head>
 <body>
-    <!--
-    Information:
-        fecha hora inicio
-        fecha hora fin
-        fecha hora anticipo
-        cantidad anticipo
-        if(paquete?)
-            seleccione el paquete
-        else
+    <form class="form-container" action="#" method="post">
+        <!--
+        Information:
+            fecha hora inicio
+            fecha hora fin
+            fecha hora anticipo
+            cantidad anticipo
+            if(paquete?)
+                seleccione el paquete
+            else
+                precio total
+                cantidad personas
+                costo presona adicional
+                id mueble
+        -->
+      <h2>Agregar Evento</h2>
+      <label for="name">Nombre:</label>
+      <input type="text" name="name" id="name" placeholder="Fernando">
+      <label for="last-name-p">Apellido Paterno:</label>
+      <input type="text" name="last-name-p" id="last-name-p" placeholder="Mayorga">
+      <label for="last-name-m">Apellido Materno:</label>
+      <input type="text" name="last-name-m" id="last-name-m" placeholder="Rojas">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="correo@gmail.com">
+      <label for="cel">Telefono celular:</label>
+      <input type="number" name="cel" id="cel" placeholder="3350384956">
+      <label for="tel">Telefono fijo:</label>
+      <input type="number" name="tel" id="tel" placeholder="38495738">
 
+      <div class="row">
+        <button class="btn-accept" type="submit" name="button">Agregar</button>
+        <button class="btn-cancel" type="submit" name="button">Cancelar</button>
+      </div>
 
-
-
-      cliente (nombre o id)
-      Apellido paterno
-      Apellido materno
-      correo
-      Telefono
-    -->
+    </form>
 </body>
 </html>
