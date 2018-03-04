@@ -204,3 +204,65 @@
     }
   }
 }
+
+.form-column-2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  .column {
+    flex-basis: 100%;
+    margin: 0;
+  }
+
+  h2 {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  input {
+    display: block;
+    width: 94.3%;
+    border: none;
+    height: 40px;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  .btn-accept {
+    display: block;
+    width: 97%;
+    border: none;
+    background-color: $green;
+    height: 50px;
+    margin: 20px 0;
+  }
+  .btn-cancel {
+    display: block;
+    width: 97%;
+    border: none;
+    background-color: red;
+    height: 50px;
+    margin: 20px 0;
+  }
+  textarea {
+    display: block;
+    width: 94.3%;
+    border: none;
+    margin: 20px 0;
+    padding: 10px;
+  }
+}
+
+@media (min-width: $media-tablet) {
+  .form-column-2 {
+    width: 700px;
+    margin: 0 auto;
+
+    .column {
+      flex-basis: 45%;
+      margin: 0 10px;
+    }
+
+  }
+}
