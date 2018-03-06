@@ -15,53 +15,109 @@
     <title>Eventos</title>
   </head>
   <body>
-    <header class="gallery-index">
-      <h1>Don Leon</h1>
-      <h2>Menú administrativo</h2>
-    </header>
+      <header class="gallery-index">
+          <h1>Don Leon</h1>
+          <h2>Menú administrativo</h2>
+      </header>
 
-    <!-- Left side column. contains the logo and sidebar -->
-<aside class="main-sidebar">
+    <div class="flex-conteiner">
+        <div class="flex-aside">
+            <aside>
+                <ul>
+                    <li>
+                        <a href="#" ><i class="fas fa-users"></i>
+                            <span >Usuarios:</span>
+                        <ul>
+                            <li>
+                                <a href="">Alta de usuario</a>
+                            </li>
+                            <li>
+                                <a href="">Listado de usuarios</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="fas fa-child"></i>
+                            <span >Clientes:</span>
+                        <ul>
+                            <li>
+                                <a href="">Alta de cliente</a>
+                            </li>
+                            <li>
+                                <a href="">Listado de clientes</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="fas fa-truck"></i>
+                            <span >Proveedores:</span>
+                        <ul>
+                            <li>
+                                <a href="">Alta de provedor</a>
+                            </li>
+                            <li>
+                                <a href="">Listado de proveedores</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="fas fa-cart-plus"></i>
+                            <span >Servicios adicionales:</span>
+                        <ul>
+                            <li>
+                                <a href="">Alta de servicio</a>
+                            </li>
+                            <li>
+                                <a href="">Listado de servicios</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="fas fa-cube"></i>
+                            <span >Paquetes:</span>
+                        <ul>
+                            <li>
+                                <a href="">Alta de paquete</a>
+                            </li>
+                            <li>
+                                <a href="">Listado de paquetes</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="far fa-calendar"></i>
+                            <span >Eventos:</span>
+                        <ul>
+                            <li>
+                                <a href="./event/create.html">Alta de evento</a>
+                            </li>
+                            <li>
+                                <a href="./event/index.html">Listado de eventos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="far fa-calendar-alt"></i>
+                            <span >Calendario:</span>
+                        <ul>
+                            <li>
+                                <a href="">Inspeccionar calendario</a>
+                            </li>
+                        </ul>
+                    </li>
 
-    <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
-
-        <ul class="sidebar-menu" id="side-menu">
-
-            <li class="treeview" id="roles">
-                <a href="#" ><i class='fa fa-lock'></i> <span >Roles</span> <i class="fa fa-angle-left pull-right"></i></a>
-                <ul class="treeview-menu">
-                        <li id="roles-create"><a href="{{route('roles.create')}}">Alta de rol</a></li>
-                        <li><a href="{{route('roles.index')}}">Listado de rol</a></li>
-                </ul>
-            </li>
-            <li class="treeview" id="companies">
-                <a href="#" ><i class='fa fa-building'></i> <span >Compañias</span> <i class="fa fa-angle-left pull-right"></i></a>
-                <ul class="treeview-menu">
-                        <li id="companies-create"><a href="{{route('companies.create')}}">Alta de Compañia</a></li>
-                        <li><a href="{{route('companies.index')}}">Listado de Compañias</a></li>
-                </ul>
-            </li>
-            <li class="treeview" id="branches">
-                <a href="#" ><i class="fa fa-share-alt-square" aria-hidden="true"></i> <span >Ramos</span> <i class="fa fa-angle-left pull-right"></i></a>
-                <ul class="treeview-menu">
-                        <li id="branches-create"><a href="{{route('branches.create')}}">Alta de ramo</a></li>
-                        <li><a href="{{route('branches.index')}}">Listado de ramos</a></li>
-                </ul>
-            </li>
-            <li class="treeview" id="products">
-                <a href="#" ><i class='fa fa-cart-plus'></i> <span >Productos</span> <i class="fa fa-angle-left pull-right"></i></a>
-                <ul class="treeview-menu">
-                        <li id="companies-create"><a href="{{route('products.create')}}">Alta de Poducto</a></li>
-                        <li><a href="{{route('products.index')}}">Listado de Productos</a></li>
-                </ul>
-            </li>
-        </ul><!-- /.sidebar-menu -->
-    </section>
+                </ul><!-- /.sidebar-menu -->
+            </section>
     <!-- /.sidebar -->
 </aside>
 
+</div>
 
+<main class="main-conteiner">
+          <section class="welcome">
+            <h1>Bienvenido</h1>
+</section>
+</div>
     <footer>
       <ul>
         <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
