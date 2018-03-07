@@ -170,7 +170,7 @@
   }
   button {
     display: block;
-    width: 98%;
+    width: 100%;
     border: none;
     background-color: $green;
     height: 50px;
@@ -221,8 +221,7 @@
     text-align: center;
   }
 
-  input,
-  select {
+  input {
     display: block;
     width: 94.3%;
     border: none;
@@ -252,26 +251,6 @@
     border: none;
     margin: 20px 0;
     padding: 10px;
-
-/*Calendario*/
-.calendario table{
-  border-collapse: collapse;
-  width: 100%;
-
-  caption {
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  td, th {
-    border: 1px solid gray;
-    text-align: left;
-    padding: 10px;
-    background-color: $lightgray;
-  }
-
-  td.current {
-    background-color: $green;
   }
 }
 
@@ -285,21 +264,23 @@
       margin: 0 10px;
     }
 
-  .calendario table{
-    max-width: 600px;
-    margin: 0 auto;
-    width: 100%;
-
-    caption {
-      font-size: 20px;
-    }
-
-    td, th {
-      padding: 20px;
-    }
   }
 }
+
 .data-table {
-    margin-right:auto;
-    background-color: blue;
+    width: 100%;
+    .btn-add-new {
+      display: block;
+      width: 200px;
+      border: none;
+      background-color: $green;
+      height: 50px;
+      margin: 20px 0;
+      position: fixed;
+      top: 150px;
+      right: 100px;
+    }
+}
+#table_events {
+    margin: 20px auto;
 }
