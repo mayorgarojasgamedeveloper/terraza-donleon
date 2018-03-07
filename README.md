@@ -2,8 +2,13 @@
 
 Este es un programa para llevar el control de la Terraza Paraíso. Podra llevar control de los usuarios, administradores y las rentas del terreno.
 
+#Mapa de sitio
+
+[MAPA DE SITIO](https://raw.githubusercontent.com/mayorgarojasgamedeveloper/terraza-donleon/dev/MAPA%20DE%20SITIO.png)
+
 ## Links
 ## Publicas
+
 [Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/) <br />
 [Iniciar Sesión](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/login.html) <br />
 [Contacto](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/contact.html) <br />
@@ -11,6 +16,7 @@ Este es un programa para llevar el control de la Terraza Paraíso. Podra llevar 
 [Galeria](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery.html) <br />
 [Paquetes](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/package.html) <br />
 ## Administrativas
+
 Administradores <br />
 	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/) <br />
 	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/edit.html) <br />
