@@ -285,3 +285,40 @@
 #table_events {
     margin: 20px auto;
 }
+/*Calendario*/
+.calendario table{
+  border-collapse: collapse;
+  width: 100%;
+
+  caption {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  td, th {
+    border: 1px solid gray;
+    text-align: left;
+    padding: 10px;
+    background-color: $lightgray;
+  }
+
+  td.current {
+    background-color: $green;
+  }
+}
+
+@media (min-width: $media-tablet) {
+  .calendario table{
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+
+    caption {
+      font-size: 20px;
+    }
+
+    td, th {
+      padding: 20px;
+    }
+  }
+}
