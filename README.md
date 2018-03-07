@@ -4,45 +4,45 @@ Este es un programa para llevar el control de la Terraza Paraíso. Podra llevar 
 
 ## Links
 ## Publicas
-[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/)
-[Iniciar Sesión](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/login.html)
-[Contacto](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/contact.html)
-[Calendario](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/calendar.html)
-[Galeria](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery.html)
-[Paquetes](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/package.html)
+[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/) <br />
+[Iniciar Sesión](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/login.html) <br />
+[Contacto](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/contact.html) <br />
+[Calendario](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/calendar.html) <br />
+[Galeria](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery.html) <br />
+[Paquetes](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/package.html) <br />
 ## Administrativas
-Administradores
-	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/)
-	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/edit.html)
-	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/create.html)
-	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/view.html)
-Clienes
-	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/client/)
-	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/client/edit.html)
-	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/client/create.html)
-	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/client/view.html)
-Eventos
-	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/event/)
-	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/event/edit.html)
-	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/event/create.html)
-	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/event/view.html)
-Paquetes
-	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/)
-	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/edit.html)
-	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/create.html)
-	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/view.html)
-Galeria
-	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/)
-	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/edit.html)
-	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/create.html)
-	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/view.html)
-Proveedores
-	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/provider/)
-	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/provider/edit.html)
-	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/provider/create.html)
-	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/provider/view.html)
-Calendario
-	[Administrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/calendar/)
+Administradores <br />
+	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/) <br />
+	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/edit.html) <br />
+	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/create.html) <br />
+	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/view.html) <br />
+Clienes <br />
+	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/client/) <br />
+	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/client/edit.html) <br />
+	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/client/create.html) <br />
+	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/client/view.html) <br />
+Eventos <br />
+	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/event/) <br />
+	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/event/edit.html) <br />
+	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/event/create.html) <br />
+	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/event/view.html) <br />
+Paquetes <br />
+	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/) <br />
+	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/edit.html) <br />
+	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/create.html) <br />
+	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/view.html) <br />
+Galeria <br />
+	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/) <br />
+	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/edit.html) <br />
+	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/create.html) <br />
+	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/view.html) <br />
+Proveedores <br />
+	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/provider/) <br />
+	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/provider/edit.html) <br />
+	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/provider/create.html) <br />
+	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/provider/view.html) <br />
+Calendario <br />
+	[Administrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/calendar/) <br />
 
 ## Getting Started
 
