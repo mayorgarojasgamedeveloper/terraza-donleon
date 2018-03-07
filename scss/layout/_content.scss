@@ -170,7 +170,7 @@
   }
   button {
     display: block;
-    width: 98%;
+    width: 100%;
     border: none;
     background-color: $green;
     height: 50px;
@@ -205,40 +205,82 @@
   }
 }
 
-/*Calendario*/
-.calendario table{
-  border-collapse: collapse;
+.form-column-2 {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 
-  caption {
-    font-weight: bold;
-    font-size: 20px;
+  .column {
+    flex-basis: 100%;
+    margin: 0;
   }
 
-  td, th {
-    border: 1px solid gray;
-    text-align: left;
+  h2 {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  input {
+    display: block;
+    width: 94.3%;
+    border: none;
+    height: 40px;
+    margin: 20px 0;
     padding: 10px;
-    background-color: $lightgray;
   }
-
-  td.current {
+  .btn-accept {
+    display: block;
+    width: 97%;
+    border: none;
     background-color: $green;
+    height: 50px;
+    margin: 20px 0;
+  }
+  .btn-cancel {
+    display: block;
+    width: 97%;
+    border: none;
+    background-color: red;
+    height: 50px;
+    margin: 20px 0;
+  }
+  textarea {
+    display: block;
+    width: 94.3%;
+    border: none;
+    margin: 20px 0;
+    padding: 10px;
   }
 }
 
 @media (min-width: $media-tablet) {
-  .calendario table{
-    max-width: 600px;
+  .form-column-2 {
+    width: 700px;
     margin: 0 auto;
-    width: 100%;
 
-    caption {
-      font-size: 20px;
+    .column {
+      flex-basis: 45%;
+      margin: 0 10px;
     }
 
-    td, th {
-      padding: 20px;
-    }
   }
+}
+
+.data-table {
+    width: 100%;
+    .btn-add-new {
+      display: block;
+      width: 200px;
+      border: none;
+      background-color: $green;
+      height: 50px;
+      margin: 20px 0;
+      position: fixed;
+      top: 150px;
+      right: 100px;
+    }
+}
+#table_events {
+    margin: 20px auto;
 }
