@@ -38,11 +38,6 @@ Paquetes <br />
 	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/edit.html) <br />
 	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/create.html) <br />
 	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/packege/view.html) <br />
-Galeria <br />
-	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/) <br />
-	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/edit.html) <br />
-	[Crear](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/create.html) <br />
-	[Mostrar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/gallery/view.html) <br />
 Proveedores <br />
 	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/provider/) <br />
 	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/provider/edit.html) <br />
