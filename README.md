@@ -17,6 +17,7 @@ Este es un programa para llevar el control de la Terraza Paraíso. Podra llevar 
 [Paquetes](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/package.html) <br />
 ## Administrativas
 
+[Inicio Administrador](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/index_admin.html) <br />
 Administradores <br />
 	[Inicio](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/) <br />
 	[Editar](https://mayorgarojasgamedeveloper.github.io/terraza-donleon/admin/edit.html) <br />
