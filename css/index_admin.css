@@ -1,0 +1,32 @@
+.flex-conteiner {
+  display: flex;
+}
+.flex-aside {
+  flex-basis: 300px;
+}
+aside {
+  background-color: #F2D6A2;
+  width: 95%;
+  margin-right: 3%;
+}
+aside * {
+  color: black;
+}
+.main-conteiner {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+
+}
+.welcome h1 {
+  letter-spacing: 10px;
+}
+.welcome {
+  text-align: center;
+  /* background-color: #DCEBC2; */
+  /* box-shadow: 2px 2px 30px 4px #647087 inset; */
+  padding: 15% 0;
+}
+span {
+    font-weight: bold;
+}

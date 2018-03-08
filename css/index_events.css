@@ -1,0 +1,24 @@
+td {
+  border-radius: 5px;
+  text-align: center;
+  background-color: #DDDDDD;
+}
+th {
+  background-color: #B4C2CF;
+}
+table {
+  /*border-collapse: collapse;*/
+  border-spacing: 20px;
+}
+td span {
+  display: block;
+}
+.btn-show {
+    background: #87C9FB;
+}
+.btn-delete {
+    background: #BF2A2A;
+}
+.btn-edit {
+    background: #44CC9B;
+}
