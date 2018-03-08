@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/vendor/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <title>Paquetes</title>
+  </head>
+  <body>
+    <nav>
+      <h2>MENÚ</h2>
+      <img src="./img/mobile-icon.png" alt="">
+      <button type="button" name="button" onclick="myFunction()"></button>
+      <ul>
+        <li><a class="fas fa-sign-in-alt" href="../index_admin.html"> Inicio</a></li>
+        <li><a class="fas fa-users" href="../admin/index.html"> Usuarios</a></li>
+        <li><a class="fas fa-child" href="../client/index.html"> Clientes</a></li>
+        <li><a class="fas fa-truck" href="../provider/index.html"> Proveedores</a></li>
+        <li><a class="fas fa-cube" href="../packege/index.html"> Paquetes</a></li>
+        <li><a class="far fa-calendar" href="../event/index.html"> Eventos</a></li>
+        <li><a class="far fa-calendar-alt" href="../calendar/index.html"> Calendario</a></li>
+        <li><a class="fas fa-sign-out-alt" href="../index.html"> Cerrar Sesión</a></li>
+      </ul>
+    </nav>
+    <header class="gallery-index">
+      <h1>Don Leon</h1>
+      <h2>Paquetes</h2>
+    </header>
+    <main>
+      <form class="form-column-2" action="" method="post">
+        <br>
+        <h2>Lista de paquetes</h2>
+        <div class="column">
+          <br>
+            <label for="client">Paquete</label>
+            <input type="text" name="client" id="client" value="juan">
+              <label for="date_time_start">Fecha y hora de inicio:</label>
+              <input type="datetime-local" name="date_time_start" id="date_time_start" placeholder="27/12/2018 3:00 p.m.">
+              <label for="date_time_end">Fecha y hora de fin:</label>
+              <input type="datetime-local" name="date_time_end" id="date_time_end" placeholder="27/12/2018 3:00 p.m.">
+        </div>
+
+        <div class="column">
+          <br>
+          <label for="cost">Costo:</label>
+          <input type="number" name="cost" id="cost" placeholder="250">
+          <label for="service">Servicio adiconal:</label>
+          <input type="text" name="service" id="service" placeholder="Toldos">
+          <label for="persons_quantity">Cantidad de personas:</label>
+          <input type="number" name="persons_quantity" id="persons_quantity" placeholder="50">
+        </div>
