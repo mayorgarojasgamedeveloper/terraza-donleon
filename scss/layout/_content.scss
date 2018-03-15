@@ -172,9 +172,18 @@
     display: block;
     width: 100%;
     border: none;
-    background-color: $green;
     height: 50px;
     margin: 20px 0;
+  }
+  .btn-accept {
+      background-color: $green;
+  }
+  .btn-cancel {
+      background-color: red;
+  }
+  h2 {
+      margin: 0 auto;
+      display: block;
   }
   textarea {
     display: block;
@@ -205,6 +214,7 @@
   }
 }
 
+
 .form-column-2 {
   width: 100%;
   display: flex;
@@ -224,11 +234,15 @@
   input,
   select {
     display: block;
-    width: 94.3%;
+    width: 90%;
     border: none;
     height: 40px;
     margin: 20px 0;
     padding: 10px;
+  }
+  select {
+      width: 98%;
+      height: 55px;
   }
   .btn-accept {
     display: block;
@@ -257,14 +271,38 @@
 
 @media (min-width: $media-tablet) {
   .form-column-2 {
-    width: 700px;
+    width: 100%;
     margin: 0 auto;
-
     .column {
       flex-basis: 45%;
       margin: 0 10px;
     }
+    select {
+        width: 95%;
+    }
+    .btn-accept,
+    .btn-cancel {
+        width: 95%;
+    }
+  }
+}
 
+@media (min-width: $media-desktop) {
+  .form-column-2 {
+    width: 70%;
+    margin: 0 auto;
+    .column {
+      flex-basis: 45%;
+      margin: 0 10px;
+    }
+    select {
+        width: 95%;
+    }
+    .btn-accept,
+    .btn-cancel {
+        width: 91%;
+        margin-left: 10px;
+    }
   }
 }
 
